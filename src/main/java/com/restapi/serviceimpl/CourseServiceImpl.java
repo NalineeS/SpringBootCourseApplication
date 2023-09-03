@@ -1,4 +1,4 @@
-package com.restapi.service;
+package com.restapi.serviceimpl;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.restapi.dao.CourseDaoRepository;
 import com.restapi.model.Course;
+import com.restapi.service.CourseService;
 
 
 @Service
